@@ -699,10 +699,27 @@ section {
   margin: 0.2rem 0 0.45rem;
 }
 
+.package-subtitle {
+  margin: 0 0 0.8rem;
+  font-size: 0.95rem;
+  color: var(--charcoal);
+  font-weight: 600;
+  font-style: italic;
+}
+
 .package-quantity {
   margin: 0;
   color: var(--charcoal);
   font-weight: 700;
+}
+
+.package-note {
+  margin: 1rem 0 0;
+  font-size: 0.88rem;
+  color: var(--charcoal);
+  font-style: italic;
+  line-height: 1.5;
+  opacity: 0.85;
 }
 
 .price {
